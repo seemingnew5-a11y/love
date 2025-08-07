@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Our Memories</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="js/script.js" defer></script>
+  <meta charset="UTF-8">
+  <title>Slideshow Memories</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="slideshow-page">
-  <h1>📸 Our Moments Together</h1>
-<div class="slideshow-container">
-  <img src="IMG-20250807-WA0005.jpg" class="slide" style="display:block">
-  <img src="slide2.jpg" class="slide">
-  <img src="slide3.jpg" class="slide">
-</div>
+  <h1>🎞️ Flashback</h1>
 
+  <div class="slideshow-container">
+    <!-- Your image here -->
+    <img src="IMG-20250807-WA0005.jpg" class="slide" style="display:block">
+    <!-- Add more images if you want -->
+    <img src="slide2.jpg" class="slide">
+    <img src="slide3.jpg" class="slide">
+  </div>
 
-  <button onclick="window.location.href='page4.html'">Next →</button>
+  <button onclick="nextPage('page4.html')">Next →</button>
+  <script src="js/main.js"></script>
 </body>
 </html>
